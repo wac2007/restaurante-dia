@@ -1,3 +1,5 @@
 #Restaurante do Dia
 
-Não sabe onde almoçar hoje? Este projeto pesquisa restaurantes nos arredores e te trás um aleatório :)
+NÃ£o sabe onde almoÃ§ar hoje? Este projeto pesquisa restaurantes nos arredores e te traz um aleatÃ³rio :)
+
+https://wac2007.github.io/restaurante-dia/

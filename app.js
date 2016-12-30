@@ -2,7 +2,7 @@ function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(initialize);
     } else {
-        alert("Não é possível pegar sua posição");
+        alert("NÃ£o Ã© possÃ­vel pegar sua posiÃ§Ã£o");
     }
 }
 
@@ -52,8 +52,8 @@ function createMarker (map, object) {
 	  title: object.name
 	});
 	contentString = 
-		"Nome: "+object.name+"\n" +
-		"Endereço: "+object.vicinity+"\n";
+		"Nome: "+object.name+"<br/>" +
+		"EndereÃ§o: "+object.vicinity+"<br/>";
 		
 	var infowindow = new google.maps.InfoWindow({
 		content: contentString

@@ -2,7 +2,7 @@ function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(initialize);
     } else {
-        alert("Não é possível pegar sua posição");
+        alert("Deixa de ser paranoico. O Google sabe onde você está. Deixe-me saber também!");
     }
 }
 
@@ -24,7 +24,7 @@ function initialize(position) {
 
   var request = {
     location: pos,
-    radius: '500',
+    radius: '200',
     types: ['store'],
 	type: 'restaurant'
   };
@@ -53,7 +53,7 @@ function createMarker (map, object) {
 	});
 	contentString = 
 		"Nome: "+object.name+"<br/>" +
-		"Endereço: "+object.vicinity+"<br/>";
+		"Endereco: "+object.vicinity+"<br/>";
 		
 	var infowindow = new google.maps.InfoWindow({
 		content: contentString

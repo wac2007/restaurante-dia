@@ -24,7 +24,7 @@ function initialize(position) {
 
   var request = {
     location: pos,
-    radius: '200',
+    radius: window.prompt("Eu sei que tu eh preguicoso.\nMe diga quantos metros voce aguenta andar.", "200"),
     types: ['store'],
 	type: 'restaurant'
   };
